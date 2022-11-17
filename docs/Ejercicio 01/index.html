@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="nav justify-content-center bg-dark py-2 fs-3">
+        <a class="nav-link" href="#" aria-current="page">Ejercicio 01</a>
+        <a class="nav-link" href="../Ejercicio 02/index.html">Ejercicio 02</a>
+        <a class="nav-link" href="../Ejercicio 03/index.html">Ejercicio 03</a>
+        <a class="nav-link" href="../Ejercicio 04/index.html">Ejercicio 04</a>
+        <a class="nav-link" href="../Ejercicio 05/index.html">Ejercicio 05</a>
+    </nav>
+
+    <section class="text-center mt-4">
+        <header>
+            <h1 class="text-decoration-underline">Ejercicio 01</h1>
+
+            <p>Digite el importe de una compra, en caso de que el importe sea 150 o más, se le descontará el 12%.
+                Mostrar el descuento otorgado y el importe de compra final.
+            </p>
+        </header>
+        <main>
+            <div class="container">
+                <form>
+                    <div class="mb-3 row">
+                        <label for="inputName" class="col-4 col-form-label">Ingresar Importe</label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" name="inputName" id="importe" placeholder="Ingresar importe">
+                        </div>
+                    </div>
+                    <button type="button" onclick="calcular()" class="btn btn-primary w-25">Action</button>
+
+                </form>
+
+                <div class="alert alert-primary mt-4" role="alert">
+                    <strong>El importe total es:</strong> <span id="importeT"></span><br>
+                    <strong>Se le desconto:</strong> <span id="descuento"></span><br>
+                    <strong>El total es:</strong> <span id="total"></span>
+                </div>
+            
+            </div>
+        </main>
+    </section>
+
+    <script src="./main.js"></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+
+
+</body>
+
+</html>
